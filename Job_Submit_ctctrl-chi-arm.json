@@ -8,6 +8,9 @@
         {"key": "CT_CONTROLLER_TARGET_SITE", "value": "CHI@TACC"},
         {"key": "CT_CONTROLLER_NODE_TYPE", "value": "compute_arm64"},
         {"key": "CT_CONTROLLER_CONFIG_PATH", "value": "/config.yml"}
-      ]
+      ],
+      "archiveFilter": {
+         "includeLaunchFiles": false
+      }
     }
 }

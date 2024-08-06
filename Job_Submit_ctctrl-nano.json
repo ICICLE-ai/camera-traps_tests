@@ -9,6 +9,9 @@
         {"key": "CT_CONTROLLER_NODE_TYPE", "value": "Jetson"},
         {"key": "CT_CONTROLLER_GPU", "value": "true"},
         {"key": "CT_CONTROLLER_CONFIG_PATH", "value": "/config.yml"}
-      ]
+      ],
+      "archiveFilter": {
+         "includeLaunchFiles": false
+      }
     }
 }
