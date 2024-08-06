@@ -2,7 +2,7 @@
     "name": "ctctrl-tacc",
     "appId": "ctctrl-icicledev",
     "appVersion": "0.1",
-    "description": "Invoke ctcontroller to run camera-traps on TACC x86 system",
+    "description": "Invoke ctcontroller to run camera-traps on CHI@TACC Cascade Lake system",
     "parameterSet": {
       "envVariables": [ 
         {"key": "CT_CONTROLLER_TARGET_SITE", "value": "CHI@TACC"},
