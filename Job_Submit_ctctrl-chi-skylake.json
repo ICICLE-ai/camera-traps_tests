@@ -1,0 +1,16 @@
+{
+    "name": "ctctrl-tacc",
+    "appId": "ctctrl-icicledev",
+    "appVersion": "0.1",
+    "description": "Invoke ctcontroller to run camera-traps on CHI@TACC Skylake system",
+    "parameterSet": {
+      "envVariables": [ 
+        {"key": "CT_CONTROLLER_TARGET_SITE", "value": "CHI@TACC"},
+        {"key": "CT_CONTROLLER_NODE_TYPE", "value": "compute_skylake"},
+        {"key": "CT_CONTROLLER_CONFIG_PATH", "value": "/config.yml"}
+      ],
+      "archiveFilter": {
+         "includeLaunchFiles": false
+      }
+    }
+}
