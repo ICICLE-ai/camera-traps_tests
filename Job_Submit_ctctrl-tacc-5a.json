@@ -1,0 +1,17 @@
+{
+    "name": "ctctrl-tacc",
+    "appId": "ctctrl-icicledev",
+    "appVersion": "0.1",
+    "description": "Invoke ctcontroller to run camera-traps on TACC x86 system",
+    "parameterSet": {
+      "envVariables": [ 
+        {"key": "CT_CONTROLLER_TARGET_SITE", "value": "TACC"},
+        {"key": "CT_CONTROLLER_NODE_TYPE", "value": "x86"},
+        {"key": "CT_CONTROLLER_MODEL", "value": "41d3ed40-b836-4a62-b3fb-67cee79f33d9-model"},
+        {"key": "CT_CONTROLLER_CONFIG_PATH", "value": "/config.yml"}
+      ],
+      "archiveFilter": {
+         "includeLaunchFiles": false
+      }
+    }
+}
